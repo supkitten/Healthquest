@@ -29,33 +29,43 @@ public class BoxButton extends Actor
                     break;
                 case 3:
                     disease1.oneOutOfTen += 1;
+                    injury1.oneOutOfTen += 1;
                     break;
                 case 4:
                     disease1.oneOutOfTen += 1;
+                    injury1.oneOutOfTen += 1;
                     break;
                 case 5:
                     disease1.oneOutOfTen += 1;
+                    injury1.oneOutOfTen += 1;
                     break;
                 case 6:
                     disease1.oneOutOfTen += 1;
+                    injury1.oneOutOfTen += 1;
                     break;
                 case 7:
                     disease1.oneOutOfTen += 1;
+                    injury1.oneOutOfTen += 1;
                     break;
                 case 8:
                     disease1.oneOutOfTen += 1;
+                    injury1.oneOutOfTen += 1;
                     break;
                 case 9:
                     disease1.oneOutOfTen += 1;
+                    injury1.oneOutOfTen += 1;
                     break;
                 case 10:
                     disease1.oneOutOfTen += 1;
+                    injury1.oneOutOfTen += 1;
                     break;
                 case 11:
                     disease1.oneOutOfTen += 1;
+                    injury1.oneOutOfTen += 1;
                     break;
                 case 12:
                     disease1.oneOutOfTen += 1;
+                    injury1.oneOutOfTen += 1;
                     break;  
             }
         }
