@@ -8,7 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class patient extends World
 {
-
     /**
      * Constructor for objects of class patient.
      * 
@@ -25,9 +24,11 @@ public class patient extends World
      */
     private void prepare()
     {
-        BoxButton boxButton = new BoxButton("Injury", 3, 30, 200, 100);
-        addObject(boxButton,237,353);
-        BoxButton boxButton1 = new BoxButton("Disease", 3, 30, 200, 100);
-        addObject(boxButton1,237,353);
+        BoxButton boxButton = new BoxButton("Injury", 1, 30, 200, 100);
+        addObject(boxButton,250,353);
+        BoxButton boxButton1 = new BoxButton("Disease", 2, 30, 200, 100);
+        addObject(boxButton1,750,353);
+        text text = new text("What type of problem?", 50, 500, 100);
+        addObject(text,520,100);
     }
 }
