@@ -11,6 +11,7 @@ class.text.image=transparent.png
 dependency1.from=doctor
 dependency1.to=map
 dependency1.type=UsesDependency
+<<<<<<< Updated upstream
 dependency10.from=MyWorld
 dependency10.to=Button2
 dependency10.type=UsesDependency
@@ -22,6 +23,19 @@ dependency12.to=injury1
 dependency12.type=UsesDependency
 dependency13.from=BoxButton
 dependency13.to=disease1
+=======
+dependency10.from=button
+dependency10.to=patient
+dependency10.type=UsesDependency
+dependency11.from=BoxButton
+dependency11.to=injury1
+dependency11.type=UsesDependency
+dependency12.from=BoxButton
+dependency12.to=disease1
+dependency12.type=UsesDependency
+dependency13.from=BoxButton
+dependency13.to=disease2
+>>>>>>> Stashed changes
 dependency13.type=UsesDependency
 dependency14.from=Button2
 dependency14.to=doctor
@@ -32,6 +46,7 @@ dependency2.type=UsesDependency
 dependency3.from=patient
 dependency3.to=text
 dependency3.type=UsesDependency
+<<<<<<< Updated upstream
 dependency4.from=injury1
 dependency4.to=text
 dependency4.type=UsesDependency
@@ -57,6 +72,33 @@ editor.fx.0.y=114
 height=1096
 package.numDependencies=14
 package.numTargets=11
+=======
+dependency4.from=disease2
+dependency4.to=disease1
+dependency4.type=UsesDependency
+dependency5.from=disease1
+dependency5.to=text
+dependency5.type=UsesDependency
+dependency6.from=disease1
+dependency6.to=BoxButton
+dependency6.type=UsesDependency
+dependency7.from=MyWorld
+dependency7.to=text
+dependency7.type=UsesDependency
+dependency8.from=MyWorld
+dependency8.to=button
+dependency8.type=UsesDependency
+dependency9.from=MyWorld
+dependency9.to=Button2
+dependency9.type=UsesDependency
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=609
+editor.fx.0.y=124
+height=1096
+package.numDependencies=14
+package.numTargets=12
+>>>>>>> Stashed changes
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -72,70 +114,93 @@ readme.x=10
 readme.y=10
 simulation.speed=50
 target1.height=70
-target1.name=button
+target1.name=BoxButton
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=120
 target1.x=0
 target1.y=0
 target10.height=70
-target10.name=bro
+target10.name=map
 target10.showInterface=false
 target10.type=ClassTarget
 target10.width=120
 target10.x=0
 target10.y=0
 target11.height=70
-target11.name=MyWorld
+target11.name=bro
 target11.showInterface=false
 target11.type=ClassTarget
 target11.width=120
 target11.x=0
 target11.y=0
+target12.height=70
+target12.name=MyWorld
+target12.showInterface=false
+target12.type=ClassTarget
+target12.width=120
+target12.x=0
+target12.y=0
 target2.height=70
-target2.name=doctor
+target2.name=disease2
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=120
 target2.x=0
 target2.y=0
 target3.height=70
-target3.name=BoxButton
+target3.name=injury1
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=120
 target3.x=0
 target3.y=0
 target4.height=70
-target4.name=patient
+target4.name=disease1
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=120
 target4.x=0
 target4.y=0
 target5.height=70
+<<<<<<< Updated upstream
 target5.name=injury1
+=======
+target5.name=button
+>>>>>>> Stashed changes
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=120
 target5.x=0
 target5.y=0
 target6.height=70
+<<<<<<< Updated upstream
 target6.name=Button2
+=======
+target6.name=doctor
+>>>>>>> Stashed changes
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=120
 target6.x=0
 target6.y=0
 target7.height=70
+<<<<<<< Updated upstream
 target7.name=disease1
+=======
+target7.name=patient
+>>>>>>> Stashed changes
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=120
 target7.x=0
 target7.y=0
 target8.height=70
+<<<<<<< Updated upstream
 target8.name=text
+=======
+target8.name=Button2
+>>>>>>> Stashed changes
 target8.showInterface=false
 target8.type=ClassTarget
 target8.width=120
