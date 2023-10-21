@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=text
+comment1.params=txt\ size\ sizeX\ sizeY
+comment1.target=text(java.lang.String,\ int,\ int,\ int)
+numComments=2

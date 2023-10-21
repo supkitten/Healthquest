@@ -1,8 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-public class button extends Actor
+public class Button2 extends Actor
 {
     private int buttonSwitch;
-    public button(String text, int state, int size, int sizeX, int sizeY)
+    public Button2(String text, int state, int size, int sizeX, int sizeY)
     {
         GreenfootImage buttonImage = getImage();
         buttonImage.scale(sizeX,sizeY);
@@ -13,16 +13,16 @@ public class button extends Actor
         this.buttonSwitch = state;
     }
     /**
-     * Act - do whatever the button wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Act - do whatever the Button2 wants to do. This method is called whenever
+     * the 'Act' or 'Run' Button2 gets pressed in the environment.
      */
     public void act()
     {
         if(Greenfoot.mouseClicked(this))
         {
             switch(buttonSwitch){
-                case 1:
-                    Greenfoot.setWorld(new patient());
+                case 2:
+                    Greenfoot.setWorld(new doctor());
             }
         }
     }
