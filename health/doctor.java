@@ -16,6 +16,7 @@ public class doctor extends World
     public doctor()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+        super(1000, 700, 1); 
+        addObject(new map(),500,350);
     }
 }
