@@ -25,6 +25,7 @@ public class disease1 extends World
      */
     private void prepare()
     {
+        oneOutOfTen = 0;
         text text = new text("Select Your Symptoms:", 50, 475, 100);
         addObject(text,500,100);
         BoxButton boxButton = new BoxButton("Fever", 3, 30, 200, 100);
@@ -47,6 +48,8 @@ public class disease1 extends World
         addObject(boxButton8,750,500);
         BoxButton boxButton9 = new BoxButton("Visible Changes on Body", 12, 17, 300, 100);
         addObject(boxButton9,500,600);
+        BoxButton boxButton10 = new BoxButton("Done", 13, 25, 150, 100);
+        addObject(boxButton10,950,650);
     }
     public void act(){
         showText("scale: " + oneOutOfTen, 800,200);

@@ -56,7 +56,10 @@ public class BoxButton extends Actor
                     break;
                 case 12:
                     disease1.oneOutOfTen += 1;
-                    break;  
+                    break; 
+                case 13:
+                    Greenfoot.setWorld(new disease2());
+                    break;
             }
         }
     }

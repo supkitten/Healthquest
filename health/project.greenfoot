@@ -1,10 +1,10 @@
 #Greenfoot project file
 class.BoxButton.image=squaret.png
 class.Button2.image=button-red.png
-class.MyWorld.image=pngtree-background-biru-keren-dan-kosong-abstract-untuk-template-desain-powerpoint-ppt-picture-image_1738466.png
+class.MyWorld.image=transparent.png
 class.button.image=button-blue.png
+class.disease2.image=transparent.png
 class.doctor.image=transparent.png
-<<<<<<< Updated upstream
 class.injury1.image=transparent.png
 class.patient.image=transparent.png
 class.text.image=transparent.png
@@ -14,6 +14,9 @@ dependency1.type=UsesDependency
 dependency10.from=BoxButton
 dependency10.to=disease1
 dependency10.type=UsesDependency
+dependency11.from=Button2
+dependency11.to=doctor
+dependency11.type=UsesDependency
 dependency2.from=patient
 dependency2.to=text
 dependency2.type=UsesDependency
@@ -43,38 +46,8 @@ editor.fx.0.width=1550
 editor.fx.0.x=-7
 editor.fx.0.y=-7
 height=878
-package.numDependencies=10
-package.numTargets=10
-=======
-class.map.image=map.JPG
-class.patient.image=bricks2.jpg
-class.text.image=bathroom-tile.jpg
-dependency1.from=patient
-dependency1.to=BoxButton
-dependency1.type=UsesDependency
-dependency2.from=MyWorld
-dependency2.to=text
-dependency2.type=UsesDependency
-dependency3.from=MyWorld
-dependency3.to=button
-dependency3.type=UsesDependency
-dependency4.from=MyWorld
-dependency4.to=Button2
-dependency4.type=UsesDependency
-dependency5.from=button
-dependency5.to=patient
-dependency5.type=UsesDependency
-dependency6.from=Button2
-dependency6.to=doctor
-dependency6.type=UsesDependency
-editor.fx.0.height=1096
-editor.fx.0.width=1874
-editor.fx.0.x=-8
-editor.fx.0.y=-8
-height=1096
-package.numDependencies=6
-package.numTargets=9
->>>>>>> Stashed changes
+package.numDependencies=11
+package.numTargets=11
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -97,12 +70,19 @@ target1.width=120
 target1.x=0
 target1.y=0
 target10.height=70
-target10.name=MyWorld
+target10.name=bro
 target10.showInterface=false
 target10.type=ClassTarget
 target10.width=120
 target10.x=0
 target10.y=0
+target11.height=70
+target11.name=MyWorld
+target11.showInterface=false
+target11.type=ClassTarget
+target11.width=120
+target11.x=0
+target11.y=0
 target2.height=70
 target2.name=doctor
 target2.showInterface=false
@@ -125,58 +105,42 @@ target4.width=120
 target4.x=0
 target4.y=0
 target5.height=70
-<<<<<<< Updated upstream
-target5.name=injury1
-=======
-target5.name=Button2
->>>>>>> Stashed changes
+target5.name=disease2
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=120
 target5.x=0
 target5.y=0
 target6.height=70
-target6.name=text
+target6.name=injury1
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=120
 target6.x=0
 target6.y=0
 target7.height=70
-<<<<<<< Updated upstream
 target7.name=Button2
-=======
-target7.name=map
->>>>>>> Stashed changes
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=120
 target7.x=0
 target7.y=0
 target8.height=70
-<<<<<<< Updated upstream
 target8.name=disease1
-=======
-target8.name=bro
->>>>>>> Stashed changes
 target8.showInterface=false
 target8.type=ClassTarget
 target8.width=120
 target8.x=0
 target8.y=0
 target9.height=70
-<<<<<<< Updated upstream
-target9.name=bro
-=======
-target9.name=MyWorld
->>>>>>> Stashed changes
+target9.name=text
 target9.showInterface=false
 target9.type=ClassTarget
 target9.width=120
 target9.x=0
 target9.y=0
 version=3.0.0
-width=1874
-world.lastInstantiated=doctor
+width=1550
+world.lastInstantiated=disease1
 xPosition=0
 yPosition=0
