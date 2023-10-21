@@ -16,7 +16,7 @@ public class disease2 extends World
     public disease2()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+        super(1000, 700, 1); 
         if (disease1.oneOutOfTen == 0){
             waitingTime -= 0;
         }
@@ -50,9 +50,6 @@ public class disease2 extends World
         if (disease1.oneOutOfTen == 10){
             waitingTime -= 50;
         }
-        showText("estimated waiting time: " + waitingTime, 150,50);
-    }
-    public void act(){
-
+        showText("estimated waiting time: " + waitingTime + "mins", 150,50);
     }
 }

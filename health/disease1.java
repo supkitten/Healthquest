@@ -51,7 +51,4 @@ public class disease1 extends World
         BoxButton boxButton10 = new BoxButton("Done", 13, 25, 150, 100);
         addObject(boxButton10,950,650);
     }
-    public void act(){
-        showText("scale: " + oneOutOfTen, 800,200);
-    }
 }
